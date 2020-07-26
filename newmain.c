@@ -50,8 +50,6 @@ typedef unsigned short  uint16_t;
 #define TMR1_INTRO_TICKER_FACTOR    64
 #define TMR1_HORN_TICKER_FACTOR    27
 
-
-
 #define _XTAL_FREQ 16000000
 
 #pragma config FOSC = INTOSC //Intrenal RC oscillator Enabled
