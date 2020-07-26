@@ -30,8 +30,11 @@ with 8k program storage and a whopping 1k of work ram.
 * 3 x MOSFET IRLB8721 (overkill)
 * 1 x random speaker
 * 1 x 10KOhm Potentiometer
-* 1 x 100uf 16v electrolytic capacitor
-* 2x 1uf 10v ceramic caps
+* 1 x 100uf 16v electrolytic capacitor,
+      for reservoir on the 5v line, to cope with the MP3 modules
+      insane spike when its turned on. 
+* 1x MCP1702 3v3 LDO Voltage Regulator
+* 2x 1uf 10v ceramic caps. for voltage regulator
 * 4x 4.7KOhm resistors
 * 1x Wooden enclosure from old speaker
 * 1x stripeboard / Veroboard
